@@ -1,0 +1,142 @@
+
+/* PC VERY BIG SCREEN  */
+@media (min-width: 1200px){
+
+}
+/* PC BIG SCREEN  */
+@media (max-width: 1199.98px){
+    .header__nav{
+        padding: 10px 100px;
+    }
+    .header__top{
+        padding: 0 100px;
+    }
+    #movieNavbar .navbar-nav li a{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .showtime__view--content button{
+        padding: 6px;
+    }
+}
+/* PC  */
+@media (max-width: 992px){
+    .header__nav{
+        padding: 10px 30px;
+    }
+    .header__top{
+        padding: 0 30px;
+    }
+    .navbar-brand img{
+        width: 80%;
+    }
+    #movieNavbar .navbar-nav li a{
+        padding: 10px 16px;
+        font-size: 13px;
+        display: block;
+    }
+    .carousel-indicators {
+        bottom: 3%;
+        left: -75%;
+    }
+    .newIn{
+        padding: 10px 80px;
+    }
+    .showTimes{
+        padding: 0 30px;
+    }
+    .nav-tabs .nav-link{
+        font-size: 14px;
+    }
+}
+/* TABLE  */
+@media (max-width: 768px){
+    .carousel__text{
+        display: block !important;
+    }
+    .carousel__text--title h2{
+        font-size: 45px;
+    }
+    .carousel__text--content{
+        font-size: 16px;
+    }
+    .header__nav{
+        padding: 10px;
+    }
+    #movieNavbar .navbar-nav{
+        background: rgba(13, 14, 12, 0.712);
+    }
+    .header__nav li{
+        text-align: center;
+        display: block;
+        color: #fff;
+    }
+    .header__nav li.active{
+        background: #be5e28;
+        border: none;
+    }
+    #movieNavbar .nav-item.active::after{
+        width: 0;
+    }
+    .newIn{
+        padding: 10px 40px;
+    }
+    .newIn__row{
+        margin: 0 auto;
+    }
+    .showTimes .nav{
+        display: block;
+    }
+    .showTimes ul li:hover a::after, .nav-tabs .nav-link.active::after{
+        width: 4px;
+        height: 100%;
+        top: 0;
+    }
+    .showtime__img img{
+        padding-bottom: 20px;
+    }
+    .commingSoon__slider--img img{
+        width: 65%;
+    }
+    .nav-pills .nav-link:hover, .nav-pills .nav-link{
+        width: 150px;
+        margin: 0 35px;
+    }
+    .getin,
+    .about__movie,
+    .legal,
+    .content__with{
+        padding: 10px 50px;
+    }
+}
+
+/* MOBILE  */
+@media (max-width: 576px){
+    .newIn__img{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .newIn__img img{
+        width: 100%;
+    }
+    .newIn__name{
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .newIn__name p{
+        font-size: 16px;
+        margin: 0;
+    }
+    .newIn__name div{
+        font-size: 13px;
+    }
+    .showtime__img img{
+        padding-bottom: 20px;
+    }
+    .comingSoon__header--text{
+        padding: 40px;
+    }
+    .commingSoon__slider--img img{
+        width: 50%;
+    }
+}

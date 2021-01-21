@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+
+    <!-- BS4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- FONT GOOGLE -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- SPLIDE SLIDER  -->
+    <link rel="stylesheet" href="./css/splide.min.css">
+    <!-- VENOBOX CSS  -->
+    <link rel="stylesheet" href="css/venobox.css" type="text/css" media="screen" />
+    <!-- INDEX CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header>
+            <p class="text-white text-right header__top">
+                <i class="fas fa-phone-alt"></i>
+                <span class="mx-3 border-right pr-3">0975 110 893</span>
+                <i class="fa fa-search"></i>
+            </p>        
+        <nav class="navbar navbar-expand-md navbar-dark header__nav">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#movieNavbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse header__menu" id="movieNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item splide__slide active">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#newIn">WHAT'S ON</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#showTimes">SHORTCODES</a>
+                    </li>
+                    <li class="nav-item sub-position">
+                        <a class="nav-link" href="#comingSoon">NEWS</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">NEWS SINGLE</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">CONTACT</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <section class="movieCarousel">
+        <div id="movieSlider" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#movieSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#movieSlider" data-slide-to="1"></li>
+                <li data-target="#movieSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/hero-1.jpg" alt="...">
+                    <div class="carousel-caption d-none d-md-block carousel__text">
+                        <div class="carousel__text--title">
+                            <p>ACTION, ADVENTURE, FANTASY</p>
+                            <h2>End of the World: Part II</h2>
+                        </div>
+                        <div class="carousel__text--content">
+                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
+                                est notare quam littera gothica, quam nunc putamu.</p>
+                        </div>
+                        <div class="carousel__text--button">
+                            <span class="carousel__text--button--pg">PG</span>
+                            <button><i class="fa fa-play"></i> <span>PLAY TRAILER</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/hero-2.jpg"  alt="...">
+                    <div class="carousel-caption d-none d-md-block carousel__text">
+                        <div class="carousel__text--title">
+                            <p>ACTION, ADVENTURE, FANTASY</p>
+                            <h2>End of the World: Part II</h2>
+                        </div>
+                        <div class="carousel__text--content">
+                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
+                                est notare quam littera gothica, quam nunc putamu.</p>
+                        </div>
+                        <div class="carousel__text--button">
+                            <span class="carousel__text--button--pg">PG</span>
+                            <button><i class="fa fa-play"></i> <span>PLAY TRAILER</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/hero-3.jpg"  alt="...">
+                    <div class="carousel-caption d-none d-md-block carousel__text">
+                        <div class="carousel__text--title">
+                            <p>ACTION, ADVENTURE, FANTASY</p>
+                            <h2>End of the World: Part II</h2>
+                        </div>
+                        <div class="carousel__text--content">
+                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
+                                est notare quam littera gothica, quam nunc putamu.</p>
+                        </div>
+                        <div class="carousel__text--button">
+                            <span class="carousel__text--button--pg">PG</span>
+                            
+                            <button><i class="fa fa-play"></i> <span>PLAY TRAILER</span></button>
+                            <div class="carousel__text__overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        
+    </section>
+    <section id="newIn" class="newIn py-5">
+        <h3>NEW IN</h3>
+        <div class="row newIn__row">
+            <div class="col-12 col-md-3 col-sm-6">
+                <div class="newIn__img">
+                    <img class="img-fluid" src="./img/movie-1.jpg" alt="" />
+                    <!-- Chứa nền cam khi hover -->
+                    <div class="newIn__overlay"></div>
+                    <!-- Chứa play, read more  -->
+                    <div class="newIn__play">
+                        <i class="fa fa-play"></i> 
+                        <h5>READ MORE</h5>
+                        <p>Released: 7 Mar, 2017</p>
+                    </div>
+                </div>
+                <div class="newIn__name">
+                    <p>The Last post</p>
+                    <div>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-sm-6">
+                <div class="newIn__img">
+                    <img class="img-fluid" src="./img/movie-2.jpg" alt="" />
+                    <!-- Chứa nền cam khi hover -->
+                    <div class="newIn__overlay"></div>
+                    <!-- Chứa play, read more  -->
+                    <div class="newIn__play">
+                        <i class="fa fa-play"></i> 
+                        <h5>READ MORE</h5>
+                        <p>Released: 7 Mar, 2017</p>
+                    </div>
+                </div>
+                <div class="newIn__name">
+                    <p>The Last post</p>
+                    <div class="newIn__name--star1">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-sm-6">
+                <div class="newIn__img">
+                    <img class="img-fluid" src="./img/movie-3.jpg" alt="" />
+                    <!-- Chứa nền cam khi hover -->
+                    <div class="newIn__overlay"></div>
+                    <!-- Chứa play, read more  -->
+                    <div class="newIn__play">
+                        <i class="fa fa-play"></i> 
+                        <h5>READ MORE</h5>
+                        <p>Released: 7 Mar, 2017</p>
+                    </div>
+                </div>
+                <div class="newIn__name">
+                    <p>The Last post</p>
+                    <div>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-sm-6">
+                <div class="newIn__img">
+                    <img class="img-fluid" src="./img/movie-4.jpg" alt="" />
+                    <!-- Chứa nền cam khi hover -->
+                    <div class="newIn__overlay"></div>
+                    <!-- Chứa play, read more  -->
+                    <div class="newIn__play">
+                        <i class="fa fa-play"></i> 
+                        <h5>READ MORE</h5>
+                        <p>Released: 7 Mar, 2017</p>
+                    </div>
+                </div>
+                <div class="newIn__name">
+                    <p>The Last post</p>
+                    <div class="newIn__name--star2">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="showTimes" class="showTimes">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="mon-tab" data-toggle="tab" href="#mon" role="tab" aria-controls="mon" aria-selected="true">MON</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="tue-tab" data-toggle="tab" href="#tue" role="tab" aria-controls="tue" aria-selected="false">TUE</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="today-tab" data-toggle="tab" href="#today" role="tab" aria-controls="today" aria-selected="false">TODAY</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="thu-tab" data-toggle="tab" href="#thu" role="tab" aria-controls="thu" aria-selected="false">THU</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="fri-tab" data-toggle="tab" href="#fri" role="tab" aria-controls="fri" aria-selected="false">FRI</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="sat-tab" data-toggle="tab" href="#sat" role="tab" aria-controls="sat" aria-selected="false">SAT</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="sun-tab" data-toggle="tab" href="#sun" role="tab" aria-controls="sun" aria-selected="false">SUN</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="mon" role="tabpanel" aria-labelledby="mon-tab">
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, FANTASY</h5>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-5.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-8.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-7.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tue" role="tabpanel" aria-labelledby="tue-tab">
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-2  showtime__img">
+                        <img class="img-fluid" src="./img/movie-7.jpg" alt="">
+                    </div>
+                    <div class="col-10 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-2  showtime__img">
+                        <img class="img-fluid" src="./img/movie-8.jpg" alt="">
+                    </div>
+                    <div class="col-10 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-2  showtime__img">
+                        <img class="img-fluid" src="./img/movie-5.jpg" alt="">
+                    </div>
+                    <div class="col-10 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-2  showtime__img">
+                        <img class="img-fluid" src="./img/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-10 showtime__text">
+                        <h5>ACTION, ADVENTURE, FANTASY</h5>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="today" role="tabpanel" aria-labelledby="today-tab">
+
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-8.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, FANTASY</h5>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-7.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="thu" role="tabpanel" aria-labelledby="thu-tab">
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-5.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-7.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="fri" role="tabpanel" aria-labelledby="fri-tab">
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, FANTASY</h5>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-7.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="sat" role="tabpanel" aria-labelledby="sat-tab">
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-13.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-5.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="sun" role="tabpanel" aria-labelledby="sun-tab">
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12showtime__img">
+                        <img class="img-fluid" src="./img/movie-8.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, FANTASY</h5>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="row py-5 showtime__item">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-12 showtime__img">
+                        <img class="img-fluid" src="./img/movie-7.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-8 col-sm-12 showtime__text">
+                        <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a href="#">FULL SYNOPSIS &gt;</a>
+        
+                        <div class="row showtime__view">
+                            <div class="col-8 showtime__view--content">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button class="showtime-btn">14:30</button>
+                                <button>16:30</button>
+                                <button>18:30</button>
+                                <button>20:30</button>
+                            </div>
+                            <!-- text-md-right -->
+                            <div class="col-4 text-right showtime__min">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+    <section id="comingSoon" class="comingSoon">
+        <div class="comingSoon__header">
+            <div class="tab-content comingSoon__header__content" id="nav-tabContent">
+                
+                <div class="tab-pane fade show active  comingSoon__header__content-item comingSoon__header__content-item1" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="container comingSoon__header--container">
+                        <h6>COMING SOON</h6>
+                        <div class="row">
+                            <div class="col-xl-6 comingSoon__header--text">
+                                <h5>DRAMA, THRILLER</h5>
+                                <h3>Deepwater Horizon</h3>
+                                <span>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span>
+                                <span class="fa fa-calendar-alt">
+                                    30 September, 2017
+                                </span>
+                                <p>
+                                    A dramatization of the April 2010 disaster, when the offshore drilling rig Deepwater Horizon exploded and created the worst oil spill in U.S. history.
+                                </p>
+                                <a href="#">MORE INFO &gt;</a>
+                            </div>
+                            <div class="col-xl-6 venobox__content">
+                                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/4rgo4yeC3C4">
+                                    <div class="venobox__img">
+                                        <img src="./img/slide-2-video.png" alt="">
+        
+                                    </div>
+                                    <div class="venobox__play">
+                                        <i class="fa fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+        
+                </div>
+                <div class="tab-pane fade comingSoon__header__content-item comingSoon__header__content-item2" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        
+                    <div class="container comingSoon__header--container">
+                        <h6>COMING SOON</h6>
+                        <div class="row">
+                            <div class="col-xl-6 comingSoon__header--text">
+                                <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                                <h3>X-Men: Days of Future Past</h3>
+                                <span>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span><span class="fa fa-calendar-alt">
+                                    07 September, 2018
+                                </span>
+                                <p>
+                                    The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.
+                                </p>
+                                <a href="#">MORE INFO &gt;</a>
+                            </div>
+                            <div class="col-xl-6 venobox__content">
+                                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/eRN4fU3Wi-c">
+                                    <div class="venobox__img">
+                                        <img src="./img/slide-1-video.png" alt="">
+        
+                                    </div>
+                                    <div class="venobox__play">
+                                        <i class="fa fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="tab-pane fade comingSoon__header__content-item comingSoon__header__content-item3" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="container comingSoon__header--container">
+                        <h6>COMING SOON</h6>
+                        <div class="row">
+                            <div class="col-xl-6 comingSoon__header--text">
+                                <h5>COMEDY, CRIME</h5>
+                                <h3>The Hangover Part III</h3>
+                                <span>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span><span class="fa fa-calendar-alt">
+                                    07 September, 2018
+                                </span>
+                                <p>
+                                    When one of their own is kidnapped by an angry gangster, the Wolf Pack must track down Mr. Chow, who has escaped from prison and is on the run.
+                                </p>
+                                <a href="#">MORE INFO &gt;</a>
+                            </div>
+                            <div class="col-xl-6 venobox__content">
+                                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/VTnGOjtaWAY">
+                                    <div class="venobox__img">
+                                        <img src="./img/slide-3-video.png" alt="">
+        
+                                    </div>
+                                    <div class="venobox__play">
+                                        <i class="fa fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade comingSoon__header__content-item comingSoon__header__content-item4" id="nav-comming4" role="tabpanel" aria-labelledby="nav-comming4-tab">
+                    <div class="container comingSoon__header--container">
+                        <h6>COMING SOON</h6>
+                        <div class="row">
+                            <div class="col-xl-6 comingSoon__header--text">
+                                <h5>ACTION, ADVENTURE, SCI-FI</h5>
+                                <h3>Transformers: Age of Extinction</h3>
+                                <span>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span><span class="fa fa-calendar-alt">
+                                    15 April, 2018
+                                </span>
+                                <p>
+                                    Autobots must escape sight from a bounty hunter who has taken control of the human serendipity: Unexpectedly, Optimus Prime and his remaining gang turn to a mechanic, his daughter, and her back street racing boyfriend for help.
+                                </p>
+                                <a href="#">MORE INFO &gt;</a>
+                            </div>
+                            <div class="col-xl-6 venobox__content">
+                                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/4rgo4yeC3C4">
+                                    <div class="venobox__img">
+                                        <img src="./img/slide-1-video.png" alt="">
+        
+                                    </div>
+                                    <div class="venobox__play">
+                                        <i class="fa fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade comingSoon__header__content-item comingSoon__header__content-item5" id="nav-comming5" role="tabpanel" aria-labelledby="nav-comming5-tab">
+                    <div class="container comingSoon__header--container">
+                        <h6>COMING SOON</h6>
+                        <div class="row">
+                            <div class="col-xl-6 comingSoon__header--text">
+                                <h5>COMEDY, CRIME</h5>
+                                <h3>End of an empire</h3>
+                                <span>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span><span class="fa fa-calendar-alt">
+                                    07 September, 2018
+                                </span>
+                                <p>
+                                    A growing nation of genetically evolved apes led by Caesar is threatened by a band of human survivors of the devastating virus unleashed a decade earlier.
+                                </p>
+                                <a href="#">MORE INFO &gt;</a>
+                            </div>
+                            <div class="col-xl-6 venobox__content">
+                                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/4rgo4yeC3C4">
+                                    <div class="venobox__img">
+                                        <img src="./img/slide-3-video.png" alt="">
+        
+                                    </div>
+                                    <div class="venobox__play">
+                                        <i class="fa fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade comingSoon__header__content-item comingSoon__header__content-item6" id="nav-comming6" role="tabpanel" aria-labelledby="nav-comming6-tab">
+                    <div class="container comingSoon__header--container">
+                        <h6>COMING SOON</h6>
+                        <div class="row">
+                            <div class="col-xl-6 comingSoon__header--text">
+                                <h5>COMEDY, CRIME</h5>
+                                <h3>End of an empire</h3>
+                                <span>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span><span class="fa fa-calendar-alt">
+                                    07 September, 2018
+                                </span>
+                                <p>
+                                    A growing nation of genetically evolved apes led by Caesar is threatened by a band of human survivors of the devastating virus unleashed a decade earlier.
+                                </p>
+                                <a href="#">MORE INFO &gt;</a>
+                            </div>
+                            <div class="col-xl-6 venobox__content">
+                                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/4rgo4yeC3C4">
+                                    <div class="venobox__img">
+                                        <img src="./img/slide-2-video.png" alt="">
+        
+                                    </div>
+                                    <div class="venobox__play">
+                                        <i class="fa fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade comingSoon__header__content-item comingSoon__header__content-item7" id="nav-comming7" role="tabpanel" aria-labelledby="nav-comming7-tab">
+                    <div class="container comingSoon__header--container">
+                        <h6>COMING SOON</h6>
+                        <div class="row">
+                            <div class="col-xl-6 comingSoon__header--text">
+                                <h5>COMEDY, CRIME</h5>
+                                <h3>The Hangover Part III</h3>
+                                <span>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span><span class="fa fa-calendar-alt">
+                                    07 September, 2018
+                                </span>
+                                <p>
+                                    When one of their own is kidnapped by an angry gangster, the Wolf Pack must track down Mr. Chow, who has escaped from prison and is on the run.
+                                </p>
+                                <a href="#">MORE INFO &gt;</a>
+                            </div>
+                            <div class="col-xl-6 venobox__content">
+                                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/4rgo4yeC3C4">
+                                    <div class="venobox__img">
+                                        <img src="./img/slide-1-video.png" alt="">
+        
+                                    </div>
+                                    <div class="venobox__play">
+                                        <i class="fa fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comingSoon__content splide " id="splide">
+            <div class="splide__track container">
+                <ul class="nav nav-pills mb-3 splide__list" id="pills-tab" role="tablist">
+                    <li class="nav-item splide__slide" role="presentation">
+                        <a class="nav-link active" id="nav-home-tab" data-toggle="pill" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+                            <div class="commingSoon__slider--img">
+                                <img src="./img/movie-1.jpg" alt="">
+                            </div>
+                            <div class="commingSoon__slider--text">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item splide__slide" role="presentation">
+                        <a class="nav-link" id="nav-profile-tab" data-toggle="pill" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
+                            
+                            <div class="commingSoon__slider--img">
+                                <img src="./img/movie-2.jpg" alt="">
+                            </div>
+                            <div class="commingSoon__slider--text">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+                            
+                        </a>
+                    </li>
+                    <li class="nav-item splide__slide" role="presentation">
+                        <a class="nav-link" id="nav-contact-tab" data-toggle="pill" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">
+                            <div class="commingSoon__slider--img">
+                                <img src="./img/movie-3.jpg" alt="">
+                            </div>
+                            <div class="commingSoon__slider--text">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item splide__slide" role="presentation">
+                        <a class="nav-link" id="nav-comming4-tab" data-toggle="pill" href="#nav-comming4" role="tab" aria-controls="nav-comming4" aria-selected="false">
+                            <div class="commingSoon__slider--img">
+                                <img src="./img/movie-4.jpg" alt="">
+                            </div>
+                            <div class="commingSoon__slider--text">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item splide__slide" role="presentation">
+                        <a class="nav-link" id="nav-comming5-tab" data-toggle="pill" href="#nav-comming5" role="tab" aria-controls="nav-comming5" aria-selected="false">
+                            <div class="commingSoon__slider--img">
+                                <img src="./img/movie-5.jpg" alt="">
+                            </div>
+                            <div class="commingSoon__slider--text">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item splide__slide" role="presentation">
+                        <a class="nav-link" id="nav-comming6-tab" data-toggle="pill" href="#nav-comming6" role="tab" aria-controls="nav-comming6" aria-selected="false">
+                            <div class="commingSoon__slider--img">
+                                <img src="./img/movie-6.jpg" alt="">
+                            </div>
+                            <div class="commingSoon__slider--text">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item splide__slide" role="presentation">
+                        <a class="nav-link" id="nav-comming7-tab" data-toggle="pill" href="#nav-comming7" role="tab" aria-controls="nav-comming7" aria-selected="false">
+                            <div class="commingSoon__slider--img">
+                                <img src="./img/movie-7.jpg" alt="">
+                            </div>
+                            <div class="commingSoon__slider--text">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </section>
+    <section id="contacts" class="contact container">
+        <h5>Need help? Contact our support team on</h5>
+        <h4>0330 123 4567</h4>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 getin">
+                    <h4>GET IN TOUCH</h4>
+                    <ul>
+                        <li>
+                            <a href="#">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#">Give us feedback</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 about__movie">
+                    <h4>ABOUT MOVIE STAR</h4>
+                    <ul>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Find us</a>
+                        </li>
+                        <li>
+                            <a href="#">Schedule</a>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 legal">
+                    <h4>LEGAL STUFF</h4>
+                    <ul>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookie policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 content__with">
+                    <h4>CONNECT WITH US</h4>
+                    <ul>
+                        <li>
+                            <i class="fab fa-facebook-f"></i>
+                            <a href="#"> Facebook</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter"></i>
+                            <a href="#">Twitter</a>
+                        </li>
+                        <li>
+                            
+                            <i class="fab fa-google-plus-g"></i>
+                            <a href="#">Google +</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p>2017 © Movie Star / Web design by Klever media</p>
+        </div>
+
+    </footer>
+
+    <!-- Thư viện hỗ trợ -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <!-- BS4 JS     -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+        <script>
+            $('.carousel').carousel({
+                interval: 5000
+            })
+        </script>
+        <script src="./js/splide.min.js"></script>
+        <script>
+            new Splide( '.splide' ).mount();
+            new Splide( '#splide', {
+                type    : 'loop',
+                perPage    : 6,
+                height     : '20rem',
+                cover      : true,
+                
+            } ).mount();
+        </script>
+        <script type="text/javascript" src="js/venobox.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.venobox').venobox(); 
+            });
+        </script>
+</body>
+
+</html>
